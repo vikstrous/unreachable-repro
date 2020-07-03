@@ -1,0 +1,12 @@
+schema:
+  - '../common/*.graphqls'
+  - '*.graphqls'
+exec:
+  filename: generated.go
+  package: todoservice
+model:
+  filename: models_gen.go
+  package: todoservice
+resolver:
+  filename: resolver.go
+  package: todoservice

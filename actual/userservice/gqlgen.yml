@@ -1,0 +1,12 @@
+schema:
+  - '../common/*.graphqls'
+  - '*.graphqls'
+exec:
+  filename: generated.go
+  package: userservice
+model:
+  filename: models_gen.go
+  package: userservice
+resolver:
+  filename: resolver.go
+  package: userservice
